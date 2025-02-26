@@ -1,1 +1,3 @@
-minikube start --insecure-registry="localhost:5000"
+#!/bin/bash
+
+minikube start
