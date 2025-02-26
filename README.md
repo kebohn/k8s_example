@@ -49,5 +49,18 @@
   2. Apply k8s deployemnt
  
      ```bash bash scripts/k8s_deployment.sh```
+  
+  3. Use minkube tunnel in detached mode to allow external ip access
+
+     ```bash screen -S minikube-tunnel```
+     ```bash minikube tunnel```
+     
+  4. Detach from screen with Ctrl + A, then D
+
+  5.(Optional) Reattach with:
+
+    ```bash  screen -r minikube-tunnel```
+     
+     
 
 
